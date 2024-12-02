@@ -6,7 +6,7 @@ jobs:
     steps:
 #      - name: Check out Repo
 #        uses: action/checkout@v3
-      - name: Deploy to the serve
+      - name: Deploy to the server
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: 54.236.79.196
